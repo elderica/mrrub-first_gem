@@ -1,7 +1,7 @@
 name: mruby-first_gem
-description: FirstGem class
+description: CalcPI class
 author: Kazuki Shigemichi
-website: https://github.com/shigemichik/mruby-first_gem
+website: https://github.com/elderica/mruby-first_gem
 protocol: git
-repository: https://github.com/shigemichik/mruby-first_gem.git
+repository: https://github.com/elderica/mruby-first_gem.git
 license: MIT
