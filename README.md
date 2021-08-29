@@ -1,5 +1,5 @@
-# mruby-first_gem   [![Build Status](https://travis-ci.org/shigemichik/mruby-first_gem.svg?branch=master)](https://travis-ci.org/shigemichik/mruby-first_gem)
-FirstGem class
+# mruby-first_gem   [![Build Status](https://travis-ci.org/elderica/mruby-first_gem.svg?branch=main)](https://travis-ci.org/elderica/mruby-first_gem)
+CalcPI class
 ## install by mrbgems
 - add conf.gem line to `build_config.rb`
 
@@ -8,18 +8,13 @@ MRuby::Build.new do |conf|
 
     # ... (snip) ...
 
-    conf.gem :github => 'shigemichik/mruby-first_gem'
+    conf.gem :github => 'elderica/mruby-first_gem'
 end
 ```
 ## example
 ```ruby
-p FirstGem.hi
-#=> "hi!!"
-t = FirstGem.new "hello"
-p t.hello
-#=> "hello"
-p t.bye
-#=> "hello bye"
+> p CalcPI.new.gauss_l
+3.141592653589792
 ```
 
 ## License
